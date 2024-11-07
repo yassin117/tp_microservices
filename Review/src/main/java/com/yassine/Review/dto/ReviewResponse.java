@@ -1,0 +1,18 @@
+package com.yassine.Review.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ReviewResponse {
+    private long id;
+    private long productId;
+    private String author;
+    private String content;
+    private float rate;
+}
